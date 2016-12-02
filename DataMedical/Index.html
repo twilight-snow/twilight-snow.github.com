@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel=stylesheet href="css/base.css" type="text/css"/>
+<link rel=stylesheet href="css/index.css" type="text/css"/>
+<link rel=stylesheet href="css/swiper.min.css" type="text/css"/>
+<title>无标题文档</title>
+<script src="js/swiper.min.js"></script>
+<script>
+;(function(win,doc){
+	//chrome最小字体 12px
+	win.addEventListener('resize',setFont,false);
+	setFont();
+	function setFont(){
+			doc.documentElement.style.fontSize=doc.documentElement.clientWidth/15+'px';
+		};
+})(window,document)
+window.onload=function(){
+	var oL=document.getElementById('logo');
+	var oZ=document.getElementById('zz');
+	var oC=document.getElementById('close');
+	oL.onclick=function(){
+		oZ.style.display="block";
+		oL.style.display="none";
+		
+	};
+	oC.onclick=function(){
+		oZ.style.display="none";
+		oL.style.display="block";
+	};
+};
+</script>
+
+</head>
+
+<body>
+<!--遮罩层-start-->
+    <div class="zz" id="zz" style="display:none;">
+        <span id="close">X</span>
+        <ul>
+            
+            <li><a href="pro.html">产品介绍</a></li>
+            <li><a href="#con4">联系我们</a></li>
+        </ul>
+    </div>
+<!--遮罩层-end-->
+<!--head-->
+    <div class="head">
+        <div class="logo" id="logo"></div>
+        大数医达
+    </div>
+   
+<!--banner-->
+	<div class="pic">
+    	<div class="p1 clearfix">人工智能一小步，</br><p class="sp2 fl">医疗健康</p><p class="fl">一大步</p></div>
+    </div>
+<!--about-->
+	<div class="con1">
+        <h2><span>01</span>关于我们</h2>
+        <div></div>
+        <p>北京大数医达科技有限公司是一家在人工智能、大数据、云计算方面拥有国际领先水平的高科技企业，专注于多源异构医疗数据处理、深度挖掘与机器学习。</p>
+    </div>
+<!---->
+
+	
+   <div class="swiper-container cl">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="sw"><img src="img/elite.svg" alt=""/><p>顶尖团队</br><span>Elite</br>team</span></p></div></div>
+            <div class="swiper-slide sw"><div class="sw"><img src="img/medical.svg" alt=""/><p>医学专家队</br><span>Medical</br>experts</span></p></div></div>
+            <div class="swiper-slide sw"><div class="sw"><img src="img/leading.svg" alt=""/><p>国际领先队</br><span>Leading</br>international</span></p></div></div>
+            <div class="swiper-slide sw"><div class="sw"><img src="img/elite.svg" alt=""/><p>顶尖团队</br><span>Elite</br>team</span></p></div></div>
+            <div class="swiper-slide sw"><div class="sw"><img src="img/medical.svg" alt=""/><p>医学专家队</br><span>Medical</br>experts</span></p></div></div>
+            <div class="swiper-slide sw"><div class="sw"><img src="img/leading.svg" alt=""/><p>国际领先队</br><span>Leading</br>international</span></p></div></div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>点-->
+        <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+        freeMode: true
+    });
+    </script>
+<!---->
+	<div class="con2">
+        <h2><span>02</span>团队领袖——邓侃CTO</h2>
+        <div></div>
+        <p>团队领袖邓侃博士是互联网领域著名的技术专家，师从大数据学创始人——美国卡耐基梅隆大学（CMU）计算机学院院长Andrew Moore教授，专业从事机器学习和数据挖掘曾Oracle主任架构师、百度搜索高级技术总监等职务。</p>
+    </div>
+<!---->
+    <div class="con3">
+        <h2><span>03</span>我们的愿景</h2>
+        <div></div>
+        <p>大数医达拥有自主知识产权的医疗大数据系统，该系统把超大规模的云计算系统，深度学习和数据挖掘等大数据算法，应用到医疗领域，自动化，智能化融汇多源异构的医疗数据，把自然语言的非结构话病例，自动转化为机构化的病例，从中挖掘出医生的临床诊断和治疗经验，助力医疗大数据产业发展，促进医疗卫生健康进步，社会服务，造福人类。</p>
+        
+        	<video src="img/hd.mp4" controls poster="img/video.jpg"></video>
+    </div>
+<!---->
+	<div class="con4" id="con4">
+        <h2><span>04</span>联系我们</h2>
+        <div></div>
+        <p>地址：北京市海淀区东北旺西路8号中关村软件园一期3号楼3B区1206室</p>
+        <p class="p1">公司邮箱：service@iyoudoctor.com</p>
+        <p class="p1">公司网址：www.e@iyoudoctor.com</p>
+    </div>
+<!---->
+	<div class="map"></div>
+    <div class="bottom">京ICP备16013105号-1</div>
+</body>
+</html>

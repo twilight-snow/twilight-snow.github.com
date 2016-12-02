@@ -1,0 +1,173 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+.fl{
+	float:left;
+}
+.banner{
+	background: #040404;
+	width: 15rem;
+	height: 1.76rem;
+}
+.menu{
+	line-height: 1.76rem;
+	margin-left: 1.08rem;
+}
+.menu img{
+	width: 0.9rem;
+	height: 0.64rem;
+}
+.banner p{
+	font-size: 0.66rem;
+	color: #f6fafb;
+	font-weight: blod;
+	width: 2.84rem;
+	text-align: center;
+	line-height: 1.76rem;
+	margin-left: 4.08rem;
+
+}
+.bg{
+	width: 15rem;
+	height: 6rem;
+}
+.bg img{
+	width: 15rem;
+	height: 6rem;
+}
+.list{
+	width: 100%;
+	background: #fafafa;
+	
+}
+.list ul{
+	overflow: hidden;
+	width: 100%;
+	height:5.8rem;
+	padding-top: 1.25rem;
+}
+.list ul li{
+	width: 25%;
+	float: left;
+	list-style: none;
+}
+
+.active .intr-svg .st0 {
+    fill:red;
+   
+}
+
+.intr-svg {
+    width: 3rem;
+    height: 2rem;
+    margin-bottom: 0.6rem;
+}
+.list ul li div{
+	font-size: 0.44rem;
+	text-align: center;
+	
+}
+.list ul li .on{
+	color: red;
+}
+.list ul li  a{
+	margin-left:0.25rem;
+
+}
+.content p{
+	color: #e30e24;
+	font-size: 0.9rem;
+	font-weight: bold;
+	border-left: 0.16rem solid #e30e24;
+	padding-left: 0.68rem;
+	margin-top: 1.2rem;
+}
+.content .pic li{
+	list-style: none;
+}
+.pic{
+	width: 100%;
+	height: 1.32rem;
+	margin-top: 2.1rem;
+	margin-bottom: 1.26rem;
+}
+.first img{
+	width: 1.3rem;
+	height: 1.32rem;
+	/*margin-left: 1.98rem;*/
+	margin-right: 1.3rem;
+}
+.third img{
+	width: 1.38rem;
+	margin-left: 1.26rem;
+	margin-right: 1.56rem;
+}
+.fivth img{
+	width: 1.3rem;
+	margin-left: 1.16rem;
+}
+.second img,.fourth img{
+	width: 0.78rem;
+}
+.content .cards li{
+	list-style: none;
+}
+.cards{
+	overflow: hidden;
+}
+
+.content .list2 .cards .card{
+	float: left;
+	
+}
+.content .list2 .cards img{
+	width: 11.92rem;
+	margin-bottom: 1.7rem;
+}
+.content span{
+	font-size: 0.5rem;
+	line-height: 1rem;
+
+}
+.content1{
+	padding-left: 2rem;
+	padding-right: 1rem;
+}
+
+/*遮罩层CSS*/
+.zz{
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.5);
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:666
+	}
+	.zz span{
+		font-size:0.66rem;
+		color:#fff;
+		font-weight:bold;
+		position:absolute;
+		left:1.08rem;
+		top:0.54rem;
+		font-family:'微软雅黑';
+	}
+	.zz ul{
+		position:absolute;
+		top:2rem;;
+		left:6.2rem;
+	}
+	.zz li{
+		
+		border-bottom:1px solid #fff;
+		line-height:1.6rem;
+		text-align:center;
+	}
+	.zz a{
+		text-decoration:none;
+		color:#666;
+		font-size:0.66rem;
+		color:#fff;
+	}
